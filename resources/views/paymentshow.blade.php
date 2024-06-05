@@ -12,7 +12,7 @@
 <body>
     <script>
         var options = {
-            "key": "rzp_test_UCVi9dOQzPDQSu",
+            "key": "rzp_test_zpQBKFYBZzqrDS",
             "amount": "{{ $order->amount }}",
             "currency": "INR",
             "name": "Aashish Test Company",

@@ -32,13 +32,13 @@ class TwilioController extends Controller
         //send otp response from Twilio
         return response()->json(['otp_sent' => true], 200);
     }
-    
+
     // function for otp verify which are store in database Otp tables
     // OTP Model is used for verify the exist otp in db
 
     public function verifyOtp()
     {
-        //create the logic here for verify 
+        //create the logic here for verify
         //$otp=OTP::where('phone_number',$request->phone_number)->first();
         //if($otp->otp === $request->otp){
 
